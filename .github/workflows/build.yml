@@ -12,15 +12,8 @@ jobs:
 
     - name: show node version
       run: node -v
-    
-    - name: show path
-      run: cd /home/runner/work/lushui.github.io/lushui.github.io
-
-    - name: show path
-      run: ls -l
 
     - name: build
-
       run: npm run build
 
    
