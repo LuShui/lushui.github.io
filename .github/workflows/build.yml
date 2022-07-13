@@ -12,6 +12,9 @@ jobs:
 
     - name: show node version
       run: node -v
+    
+    - name: show path
+      run: cd ../
 
     - name: show path
       run: ls -l
