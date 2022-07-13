@@ -14,7 +14,7 @@ jobs:
       run: node -v
     
     - name: show path
-      run: cd ../
+      run: cd /home/runner/work/lushui.github.io/lushui.github.io
 
     - name: show path
       run: ls -l
