@@ -8,8 +8,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      run: git pull
 
     - name: Build and Deploy
       run: npm run build
