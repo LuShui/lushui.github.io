@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: show path
+    - name: show node version
       run: node -v
+
+    - name: show path
+      run: ls -l
 
     - name: build
 
