@@ -1,5 +1,6 @@
 {
   "name": "hexo-site",
+  "homepage": "https://lushui.github.io/public",
   "version": "0.0.0",
   "private": true,
   "scripts": {
